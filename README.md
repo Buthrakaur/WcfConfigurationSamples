@@ -23,3 +23,15 @@ sample request:
 	</Body>
 </Envelope>
 ```
+
+Config samples
+--------------
+
+```xml
+        <binding name="XX">
+          <!--HTTPS --> <security mode="Transport" />
+          <!--HTTP--> <security mode="TransportCredentialOnly">
+            <transport clientCredentialType="Basic"/>
+          </security>
+        </binding>
+```
