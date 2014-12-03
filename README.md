@@ -27,6 +27,7 @@ sample request:
 Config samples
 --------------
 
+HTTPS vs HTTP binding
 ```xml
         <binding name="XX">
           <!--HTTPS --> <security mode="Transport" />
