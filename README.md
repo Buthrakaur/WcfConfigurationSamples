@@ -6,7 +6,7 @@ WsSecurityService
 configuration for WS-Security enabled service with custom username+password validation
 
 sample request:
-```
+```xml
 <Envelope xmlns="http://www.w3.org/2003/05/soap-envelope">
 	<Header>
 		<wsse:Security xmlns:wsse="http://schemas.xmlsoap.org/ws/2003/06/secext">
